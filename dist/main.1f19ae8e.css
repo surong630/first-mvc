@@ -1,0 +1,80 @@
+.text {
+  border: 1px solid red;
+  height: 50vh;
+  width: 50vw;
+}
+#app2 {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid red;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+#section {
+  display: flex;
+  flex-wrap: wrap;
+}
+#box1 {
+  display: flex;
+  justify-content: space-around;
+}
+.content {
+  display: none;
+}
+.active {
+  background: red;
+  color: white;
+}
+.selected {
+  display: block;
+}
+#app3 {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid black;
+}
+.square {
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid black;
+}
+@keyframes move {
+  0% {
+  transform: translate(0px);}
+  100% {
+    transform: translate(200px);
+  }
+}
+.square.active {
+  animation: move 1s infinite alternate-reverse;
+}
+#app4 {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid red;
+}
+.round {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+@keyframes change {
+  0% {
+    background: red;
+  }
+  100% {
+    background: blue;
+  }
+}
+.round.active {
+  animation: change 1s infinite alternate-reverse;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

@@ -1,0 +1,20 @@
+#app3 {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid black;
+}
+.square {
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid black;
+}
+@keyframes move {
+  0% {
+  transform: translate(0px);}
+  100% {
+    transform: translate(200px);
+  }
+}
+.square.active {
+  animation: move 1s infinite alternate-reverse;
+}

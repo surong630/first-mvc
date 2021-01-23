@@ -1,0 +1,22 @@
+#app4 {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid red;
+}
+.round {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+@keyframes change {
+  0% {
+    background: red;
+  }
+  100% {
+    background: blue;
+  }
+}
+.round.active {
+  animation: change 1s infinite alternate-reverse;
+}

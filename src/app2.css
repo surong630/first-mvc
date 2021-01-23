@@ -1,0 +1,14 @@
+#box1 {
+  display: flex;
+  justify-content: space-around;
+}
+.content {
+  display: none;
+}
+.active {
+  background: red;
+  color: white;
+}
+.selected {
+  display: block;
+}
