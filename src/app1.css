@@ -1,11 +1,11 @@
 .text {
   border: 1px solid red;
-  height: 50vh;
-  width: 50vw;
+  height: 40vh;
+  width: 40vw;
 }
 #app2 {
-  height: 50vh;
-  width: 50vw;
+  height: 40vh;
+  width: 40vw;
   border: 1px solid red;
 
 }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["reset.css"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,SAAU,CACV,qBAAsB,CACtB,eACF,CACA,SACE,YAAa,CACb,cACF","file":"reset.fa97db6b.css","sourceRoot":"..\\src","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  list-style: none;\r\n}\r\n#section {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n}"]}
